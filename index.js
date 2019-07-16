@@ -49,6 +49,6 @@ app.get("/personas", function(req, res) {
   });
 });
 
-app.listen(process.emv.PORT, function() {
+app.listen(process.env.PORT, function() {
   console.log("Aplicacion escuchando en puerto 2400");
 });
